@@ -20,7 +20,7 @@
 
 import React from 'react';
 
-import ContinuousSizeLegend from 'legends/continuous-size-legend';
+import ContinuousSizeLegend from '../../src/legends/continuous-size-legend';
 
 export default class Example extends React.Component {
   constructor(props) {

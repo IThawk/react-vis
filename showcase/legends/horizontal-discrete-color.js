@@ -20,8 +20,8 @@
 
 import React from 'react';
 
-import DiscreteColorLegend from 'legends/discrete-color-legend';
-import GradientDefs from 'plot/gradient-defs';
+import DiscreteColorLegend from '../../src/legends/discrete-color-legend';
+import GradientDefs from '../../src/plot/gradient-defs';
 
 const ITEMS = [
   {title: 'Dashed', color: "#45aeb1", strokeStyle: "dashed"},

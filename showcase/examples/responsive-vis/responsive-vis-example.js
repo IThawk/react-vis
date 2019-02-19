@@ -24,7 +24,7 @@ import {createData, getPPP} from './responsive-vis-utils';
 import ResponsiveScatterplot from './responsive-scatterplot';
 import ResponsiveBarChart from './responsive-bar-chart';
 
-import 'styles/examples.scss';
+import '../../src/styles/examples.scss';
 import './responsive-vis.scss';
 
 const ASPECT_RATIO = 1.2;

@@ -19,7 +19,7 @@
 // THE SOFTWARE.
 
 import React from 'react';
-import {AreaSeries, HorizontalBarSeries, XAxis, XYPlot, YAxis} from 'index';
+import {AreaSeries, HorizontalBarSeries, XAxis, XYPlot, YAxis} from '../../../src/index';
 
 import {filterFeatures, getPPP} from './responsive-vis-utils';
 

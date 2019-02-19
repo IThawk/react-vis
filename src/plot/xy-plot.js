@@ -27,24 +27,24 @@ import {
   getMissingScaleProps,
   getOptionalScaleProps,
   getXYPlotValues
-} from 'utils/scales-utils';
+} from '../utils/scales-utils';
 import {
   getStackedData,
   getSeriesChildren,
   getSeriesPropsFromChildren
-} from 'utils/series-utils';
+} from '../utils/series-utils';
 import {
   getInnerDimensions,
   MarginPropType,
   DEFAULT_MARGINS
-} from 'utils/chart-utils';
-import {AnimationPropType} from 'animation';
+} from '../utils/chart-utils';
+import {AnimationPropType} from '../animation';
 import {
   CONTINUOUS_COLOR_RANGE,
   EXTENDED_DISCRETE_COLOR_RANGE,
   SIZE_RANGE,
   OPACITY_TYPE
-} from 'theme';
+} from '../theme';
 
 import CanvasWrapper from './series/canvas-wrapper';
 
